@@ -273,3 +273,73 @@ nav ul li:last-child a:hover {
   margin-top: 35px;
   cursor: pointer;
 }
+
+
+
+
+
+
+
+/* ----------- FOOTER */
+footer {
+  background: #0A075F;
+  color: #ccc;
+  padding: 60px 80px 20px 80px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.footer-col h4 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin: 8px 0;
+}
+
+.footer-col ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-col input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.subscribe {
+  width: 100%;
+  border: none;
+  background: #F5167E;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #F3F3F3;
+  border-top: 1px solid #fffcfc7c;
+  padding-top: 20px;
+}
