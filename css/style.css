@@ -288,6 +288,10 @@ nav ul li:last-child a:hover {
   transition: background 0.3s, color 0.3s, border-color 0.3s;
 }
 
+.load-more a {
+  text-decoration: none;
+  color: inherit;
+}
 /* ----------- FOOTER */
 footer {
   background: #0a075f;
@@ -351,3 +355,35 @@ footer .copyright {
   border-top: 1px solid #fffcfc7c;
   padding-top: 20px;
 }
+
+
+
+
+
+/* ================= EVENT PAGE */
+
+.events-top {
+  height: 100vh;
+  background-image: url(../img/bg2.png), url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: larger;
+  margin-bottom: 40px;
+}
+.events-top h1 {
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.events-page {
+ padding-bottom: 80px;
+}
+
+/* ================= BLOG PAGE */
