@@ -220,6 +220,10 @@ nav ul li:last-child a:hover {
   transition: 0.3s;
 }
 
+.card3 {
+  grid-column: span 2;
+}
+
 .event-card:hover {
   transform: translateY(-5px);
 }
@@ -265,24 +269,28 @@ nav ul li:last-child a:hover {
 }
 
 .load-more {
-  background: #5124ec;
-  color: white;
-  border: none;
+  background: #ffffff;
+  color: #3d37f1;
+  font-weight: bold;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: 2px solid #3d37f1;
   border-radius: 25px;
-  padding: 10px 25px;
-  margin-top: 35px;
+  padding: 15px 25px;
+  margin-top: 50px;
   cursor: pointer;
 }
 
-
-
-
-
-
+.load-more:hover {
+  background: #3d37f1;
+  color: #fff;
+  border-color: #3d37f1;
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
 
 /* ----------- FOOTER */
 footer {
-  background: #0A075F;
+  background: #0a075f;
   color: #ccc;
   padding: 60px 80px 20px 80px;
 }
@@ -329,7 +337,7 @@ footer {
 .subscribe {
   width: 100%;
   border: none;
-  background: #F5167E;
+  background: #f5167e;
   color: white;
   padding: 10px;
   border-radius: 20px;
@@ -339,7 +347,7 @@ footer {
 footer .copyright {
   text-align: center;
   font-size: 12px;
-  color: #F3F3F3;
+  color: #f3f3f3;
   border-top: 1px solid #fffcfc7c;
   padding-top: 20px;
 }
