@@ -23,45 +23,49 @@
           </ul>
         </nav>
       </header>
+      <section class="login-section">
+        <div class="login-img"></div>
 
+        <div class="login-form">
+          <h1>Create Account</h1>
+          <form action="POST">
+            <label for="fullname">Full Name</label><br />
+            <input
+              type="text"
+              name="fullname"
+              placeholder="Enter your full name"
+            /><br />
+
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email@example.com"
+            /><br />
+
+            <label for="password">Password</label><br />
+            <input
+              type="password"
+              name="password"
+              placeholder="Create password"
+            /><br />
+
+            <label for="confirm-password">Confirm Password</label><br />
+            <input
+              type="password"
+              name="confirm-password"
+              placeholder="Confirm password"
+            /><br />
+
+            <button type="submit">Sign Up</button>
+
+            <p>
+              Already have an account?
+              <span><a href="login.html">Login</a></span>
+            </p>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
-<footer>
-        <div class="footer-content">
-          <div class="footer-col">
-            <h4>Eventick</h4>
-            <p>
-              Eventick is a global self-service ticketing platform for live
-              experiences that allows anyone to create, share, find and attend
-              events that fuel their passions and enrich their lives.
-            </p>
-          </div>
-          <div class="footer-col">
-            <h4>Plan Events</h4>
-            <ul>
-              <li><a href="#">Create and Set Up</a></li>
-              <li><a href="#">Sell Tickets</a></li>
-              <li><a href="#">Online RSVP</a></li>
-              <li><a href="#">Online Events</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Eventick</h4>
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Press</a></li>
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">How it works</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">terms</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Stay In The Loop</h4>
-            <input type="email" placeholder="Enter your email" />
-            <button class="subscribe">Subscribe</button>
-          </div>
-        </div>
-        <p class="copyright">Copyright © 2022 Avi Yansah</p>
-    </footer>
 </html>
